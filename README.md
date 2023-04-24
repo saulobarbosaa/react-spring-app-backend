@@ -13,8 +13,9 @@ Através de uma classe Model, a entidade relacionada ao cardápio foi declarada 
 O projeto possui somente dois endpoints:
  - `findAll()`
  - `create()`
+ - `delete()`
 
-Como o próprio nome diz, o findAll() efetua um GET em todos os cadastros/refeições presentes na tabela, o create() efetua um cadastro na tabela.
+Como o próprio nome diz, o findAll() efetua um GET em todos os cadastros/refeições presentes na tabela, o create() efetua um cadastro na tabela e o delete() apaga um registro na tabela de acordo com o Id informado. 
 
 Como modo de segurança e boa prática, foi utilizado o padrão de projeto DTO(Data Transfer Object) e para o mapeamento dos objetos foi utilizada a depedência ModelMapper.
 
