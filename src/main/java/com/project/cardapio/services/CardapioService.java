@@ -19,4 +19,8 @@ public class CardapioService {
     public CardapioModel create(CardapioDto obj) {
         return repository.save(mapper.map(obj, CardapioModel.class));
     }
+
+    public void delete(Integer id) {
+        repository.deleteById(id);
+    }
 }

@@ -1,6 +1,5 @@
 package com.project.cardapio.models;
 
-import com.project.cardapio.controllers.CardapioRequestDto;
 import jakarta.persistence.*;
 import lombok.*;
 

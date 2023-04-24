@@ -41,4 +41,9 @@ public class CardapioController {
         service.create(obj);
         return;
     }
+
+    @DeleteMapping(value = "/{id}")
+    public void delete(@PathVariable Integer id) {
+        service.delete(id);
+    }
 }
