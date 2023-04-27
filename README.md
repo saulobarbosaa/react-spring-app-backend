@@ -2,7 +2,7 @@
 
 ## Sobre o projeto 📚
 
-Esse projeto foi desenvolvido em duas partes, front e backend, este repositório está relacionado com o backend da aplicação e para conferir o front basta [clicar aqui](https://link.com).
+Esse projeto foi desenvolvido em duas partes, front e backend, este repositório está relacionado com o backend da aplicação e para conferir o front basta [clicar aqui](https://github.com/saulobarbosaa/react-spring-app-frontend).
 
 O projeto se baseia em uma aplicação web em um formato de cardápio, que mostra uma seleção de alimentos com seus nomes e preços.
 
